@@ -1,0 +1,3 @@
+spring:
+  application:
+    name: School_Management_Auth_Service
