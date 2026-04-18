@@ -1,10 +1,11 @@
 package com.school_mng_auth.dto;
 
-import lombok.Builder;
-import lombok.Data;
+import lombok.*;
 
 @Data
 @Builder
+@NoArgsConstructor
+@AllArgsConstructor
 public class LoginResponse {
 
     private String token;
